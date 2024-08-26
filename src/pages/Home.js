@@ -4,14 +4,16 @@ import { Box } from '@mui/material';
 import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
+import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
-    <div>
+    <Box>
+      <Navbar />
       <HeroBanner />
-      <SearchExercises />
-      <Exercises />
-      </div>
+      {/* <SearchExercises />
+      <Exercises /> */}
+    </Box>
   )
 }
 
